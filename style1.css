@@ -1,0 +1,119 @@
+/* Configuração básica de layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #eef123fa;
+    color: rgb(55, 8, 164);
+}
+
+/* Container principal para ocupar a tela toda */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main content ocupa o espaço disponível */
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Header */
+header {
+    background-color: #e65c4e;
+    color: rgb(55, 8, 164);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(55, 8, 164);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Search Section */
+.search-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.search-section input {
+    width: 80%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Auth Section */
+.auth-section {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.auth-button {
+    font-weight: bold;
+    color: rgb(55, 8, 164);
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+ .auth-button:hover { 
+    background-color: #45c8ca;
+    color: rgb(55, 8, 164);
+    font-weight: bold;
+
+}
+
+.auth-button i {
+    margin-right: 0.5rem;
+}
+
+/* Info Section */
+.info-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.info-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(55, 8, 164);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}

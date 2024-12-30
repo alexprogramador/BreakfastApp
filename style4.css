@@ -1,0 +1,47 @@
+.checkout-section {
+    text-align: center;
+    margin: 2rem;
+}
+body {
+    background-color: #eef123fa;
+    color: rgb(55, 8, 164);
+    font-weight: bold;
+}
+
+header {
+    background-color: #ff6f61;
+    color: rgb(55, 8, 164);
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: rgb(55, 8, 164);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+footer {
+    background-color: rgb(55, 8, 164);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
